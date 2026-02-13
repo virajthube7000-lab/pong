@@ -1,0 +1,39 @@
+.canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.scoreboard {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.control-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .canvas {
+        width: 100%;
+        height: auto;
+    }
+    .scoreboard {
+        font-size: 20px;
+    }
+    .controls {
+        flex-direction: column;
+    }
+}
